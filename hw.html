@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>hw</title>
+	<link rel="stylesheet" href="./css/style.css">
+	<script type="module" src="./js/mainCalc.js"></script>
+</head>
+<body>
+	<div id="menu">
+		<a id="calcMenu" href="./calc.html">Калькулятор</a>
+		<a id="timerMenu" href="./hw.html">Таймер</a>
+	</div>
+	<form id="timer">
+		<input type="date" name="inp" /> 
+		<button type="submit">Start</button>
+		<button id="stop">Stop</button>
+		<div id="calc">
+			<p id="daysTime"></p>
+			<p id="hoursTime"></p>
+			<p id="minsTime"></p>
+			<p id="secTime"></p>
+		</div>
+	</form>
+	<script src="https://cdn.jsdelivr.net/npm/howler@2.2.3/dist/howler.core.min.js"></script>
+</body>
+</html>
